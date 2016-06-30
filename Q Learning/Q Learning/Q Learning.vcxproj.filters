@@ -13,10 +13,39 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Q Learning">
+      <UniqueIdentifier>{aae0fe95-51b2-4542-8495-f46e74303fda}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="QLearning\Action.cpp">
+      <Filter>Header Files\Q Learning</Filter>
+    </ClCompile>
+    <ClCompile Include="QLearning\QLearning.cpp">
+      <Filter>Header Files\Q Learning</Filter>
+    </ClCompile>
+    <ClCompile Include="QLearning\Reward.cpp">
+      <Filter>Header Files\Q Learning</Filter>
+    </ClCompile>
+    <ClCompile Include="QLearning\State.cpp">
+      <Filter>Header Files\Q Learning</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="QLearning\Action.h">
+      <Filter>Header Files\Q Learning</Filter>
+    </ClInclude>
+    <ClInclude Include="QLearning\QLearning.h">
+      <Filter>Header Files\Q Learning</Filter>
+    </ClInclude>
+    <ClInclude Include="QLearning\Reward.h">
+      <Filter>Header Files\Q Learning</Filter>
+    </ClInclude>
+    <ClInclude Include="QLearning\State.h">
+      <Filter>Header Files\Q Learning</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -79,6 +79,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="QLearning\Action.cpp" />
+    <ClCompile Include="QLearning\QLearning.cpp" />
+    <ClCompile Include="QLearning\Reward.cpp" />
+    <ClCompile Include="QLearning\State.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="QLearning\Action.h" />
+    <ClInclude Include="QLearning\QLearning.h" />
+    <ClInclude Include="QLearning\Reward.h" />
+    <ClInclude Include="QLearning\State.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
